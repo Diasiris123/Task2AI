@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc43d418085f0746bcb88024cc9aa67, type: 3}
+  m_Name: Guard Movement Profile
+  m_EditorClassIdentifier: 
+  allowDiagonal: 1
+  turnPenalty: 0.5
+  continueBonus: 0.2
+  diagonalCost: 1.414
+  maxSpeed: 3.5
+  acceleration: 10
+  turnDelay: 0.05
